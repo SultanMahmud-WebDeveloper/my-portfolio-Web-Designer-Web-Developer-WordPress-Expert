@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== SEO: change title & description to suit ===== -->
+    <title>Md. Sultan Mahmud | Senior Web Designer Web Developer/& WordPress Expert</title>
+    <meta name="description" content="Md. Sultan Mahmud - Senior Web Developer with 8+ years of experience building speed-optimized WooCommerce stores, custom frontend layouts and scalable PHP solutions.">
+
+    <!-- ===== Google Font: Poppins ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ===== FontAwesome Icons ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- ===== Main Stylesheet ===== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         1. HEADER & NAVBAR (sticky)
+         Edit menu links here. Each href must match a section id.
+    ====================================================== -->
+    <header class="header" id="top">
+        <div class="container header__inner">
+
+            <!-- Brand logo (text). Replace with an <img> if you have a logo file -->
+                        <!-- Brand Logo Image -->
+            <a href="#home" class="header__brand">
+              <img src="img/MAHMUD.png" alt="MAHMUD IT Logo" class="logo-img">
+            </a>
+
+            <!-- Mobile menu toggle (CSS-only, no JavaScript needed) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+            <label for="nav-toggle" class="nav-toggle__btn" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="nav" aria-label="Main navigation">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#experience" class="nav__link">Experience</a></li>
+                    <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li><a href="#education" class="nav__link">Education</a></li>
+                    <li><a href="#contact" class="nav__link nav__link--cta">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- =====================================================
+             HERO / BANNER SECTION
+        ====================================================== -->
+        <section class="hero" id="home">
+            <div class="hero__glow hero__glow--one"></div>
+            <div class="hero__glow hero__glow--two"></div>
+
+            <div class="container hero__inner">
+
+                <!-- ---------- Left column: text content ---------- -->
+                <div class="hero__content">
+                    <span class="hero__badge">
+                        <i class="fa-solid fa-circle"></i> Welcome to my portfolio
+                    </span>
+
+                    <h1 class="hero__title">Hi, I'm <span class="text-gradient">Md. Sultan Mahmud</span></h1>
+
+                    <h2 class="hero__role">Senior Web Designer Web Developer &amp;  WordPress Expert</h2>
+
+                    <p class="hero__text">
+                        8+ years of expertise in building high performing, speed optimized e-commerce stores,
+                        custom frontend layouts, and scalable PHP solutions.
+                    </p>
+
+                    <!-- Key metrics -->
+                    <ul class="hero__metrics">
+                        <li class="metric">
+                            <i class="fa-solid fa-briefcase metric__icon"></i>
+                            <div>
+                                <strong class="metric__number">8+ Years</strong>
+                                <span class="metric__label">Experience</span>
+                            </div>
+                        </li>
+                        <li class="metric">
+                            <i class="fa-solid fa-users metric__icon"></i>
+                            <div>
+                                <strong class="metric__number">100+</strong>
+                                <span class="metric__label">Trainees Mentored</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- Call-to-action buttons -->
+                    <div class="hero__actions">
+                        <!-- TODO: replace with your real Fiverr profile link -->
+                        <a href="https://www.fiverr.com/your-username" target="_blank" rel="noopener" class="btn btn--primary">
+                            <i class="fa-solid fa-handshake"></i> Hire Me on Fiverr
+                        </a>
+                        <!-- TODO: put your CV file in an "assets" folder with this name -->
+                        <a href="img/Sultan Mahmud.pdf" download class="btn btn--outline">
+                            <i class="fa-solid fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ---------- Right column: profile image ---------- -->
+                <div class="hero__visual">
+                    <div class="profile">
+                        <div class="profile__ring"></div>
+                        <div class="profile__frame">
+                            <!-- TODO: put your photo at images/profile.jpg -->
+                            <img src="img/MD. SULTAN MAHMUD Web Designer and Web Developer.jpg" alt="Md. Sultan Mahmud - Web Developer" class="profile__img">
+                        </div>
+
+                        <!-- Floating tech badges -->
+                        <span class="tech-badge tech-badge--html"><i class="fa-brands fa-html5"></i> HTML5</span>
+                        <span class="tech-badge tech-badge--css"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                        <span class="tech-badge tech-badge--js"><i class="fa-brands fa-js"></i> JS</span>
+                        <span class="tech-badge tech-badge--php"><i class="fa-brands fa-php"></i> PHP</span>
+                        <span class="tech-badge tech-badge--woo"><i class="fa-brands fa-wordpress"></i> WooCommerce</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             2. ABOUT ME
+        ====================================================== -->
+        <section class="section" id="about">
+            <div class="container">
+                <header class="section__head">
+                    <span class="section__eyebrow">About Me</span>
+                    <h2 class="section__title">Developer, Mentor &amp; Problem Solver</h2>
+                </header>
+
+                <div class="about">
+                    <div class="about__text">
+                        <p>
+                            I'm a web developer and technical instructor with over <strong>8 years</strong> of
+                            hands-on experience. I design and build fast, clean and conversion-focused websites,
+                            with a special focus on WordPress and WooCommerce e-commerce stores.
+                        </p>
+                        <p>
+                            Since 2016 I have worked at <strong>Prime Computer Academy</strong>, where I teach
+                            HTML, CSS, JavaScript, PHP and WordPress, and manage the institution's software and
+                            web infrastructure. Alongside that, I work as a freelance web engineer, delivering
+                            responsive websites, custom PHP/MySQL scripts, speed optimization and cross-browser fixes
+                            for clients.
+                        </p>
+                        <p>
+                            I enjoy turning complex requirements into simple, reliable solutions &mdash; and
+                            helping the next generation of developers grow along the way.
+                        </p>
+                    </div>
+
+                    <ul class="about__stats">
+                        <li class="stat-card">
+                            <strong class="stat-card__number">8+</strong>
+                            <span class="stat-card__label">Years of Experience</span>
+                        </li>
+                        <li class="stat-card">
+                            <strong class="stat-card__number">100+</strong>
+                            <span class="stat-card__label">Students Trained</span>
+                        </li>
+                        <li class="stat-card">
+                            <strong class="stat-card__number">2016</strong>
+                            <span class="stat-card__label">Teaching Since</span>
+                        </li>
+                        <li class="stat-card">
+                            <strong class="stat-card__number">2020</strong>
+                            <span class="stat-card__label">Freelancing Since</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             3. SKILLS & EXPERTISE
+             To add a skill, copy one <article class="skill-card"> block.
+        ====================================================== -->
+        <section class="section section--alt" id="skills">
+            <div class="container">
+                <header class="section__head">
+                    <span class="section__eyebrow">Skills &amp; Expertise</span>
+                    <h2 class="section__title">What I Do Best</h2>
+                </header>
+
+                <div class="skills">
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon"><i class="fa-brands fa-wordpress"></i></div>
+                        <h3 class="skill-card__title">WordPress &amp; WooCommerce / CMS</h3>
+                        <span class="skill-card__years">8+ years</span>
+                        <p class="skill-card__text">Custom themes, plugin tweaks and complete online stores that are easy to manage.</p>
+                        <div class="skill-card__bar"><span style="width: 95%;"></span></div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon"><i class="fa-brands fa-html5"></i></div>
+                        <h3 class="skill-card__title">HTML5 &amp; CSS3</h3>
+                        <span class="skill-card__years">8+ years</span>
+                        <p class="skill-card__text">Semantic, accessible and pixel-perfect responsive layouts.</p>
+                        <div class="skill-card__bar"><span style="width: 95%;"></span></div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon"><i class="fa-brands fa-js"></i></div>
+                        <h3 class="skill-card__title">JavaScript / jQuery</h3>
+                        <span class="skill-card__years">5+ years</span>
+                        <p class="skill-card__text">Interactive UI features, sliders, form handling and dynamic content.</p>
+                        <div class="skill-card__bar"><span style="width: 80%;"></span></div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon"><i class="fa-brands fa-php"></i></div>
+                        <h3 class="skill-card__title">PHP &amp; MySQL</h3>
+                        <span class="skill-card__years">5+ years</span>
+                        <p class="skill-card__text">Scalable backend scripts, custom functionality and database design.</p>
+                        <div class="skill-card__bar"><span style="width: 80%;"></span></div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                        <h3 class="skill-card__title">Technical Training &amp; Mentorship</h3>
+                        <span class="skill-card__years">8+ years</span>
+                        <p class="skill-card__text">Clear, practical teaching that takes beginners to job-ready developers.</p>
+                        <div class="skill-card__bar"><span style="width: 90%;"></span></div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-card__icon"><i class="fa-brands fa-github"></i></div>
+                        <h3 class="skill-card__title">Git/GitHub, Speed &amp; Testing</h3>
+                        <span class="skill-card__years">Core toolkit</span>
+                        <p class="skill-card__text">Version control, speed optimization and cross-browser testing for reliable delivery.</p>
+                        <div class="skill-card__bar"><span style="width: 85%;"></span></div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             4. WORK EXPERIENCE TIMELINE
+             To add a job, copy one <article class="timeline__item"> block.
+        ====================================================== -->
+        <section class="section" id="experience">
+            <div class="container">
+                <header class="section__head">
+                    <span class="section__eyebrow">Experience</span>
+                    <h2 class="section__title">My Professional Journey</h2>
+                </header>
+
+                <div class="timeline">
+
+                    <article class="timeline__item">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__card">
+                            <span class="timeline__date">2016 &ndash; Present</span>
+                            <h3 class="timeline__title">Computer Trainer &amp; Web Specialist</h3>
+                            <h4 class="timeline__company">Prime Computer Academy</h4>
+                            <ul class="timeline__list">
+                                <li>Trained 100+ students in HTML, CSS, JS, PHP, and WordPress.</li>
+                                <li>Managed institutional software and web infrastructure.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="timeline__item">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__card">
+                            <span class="timeline__date">2020 &ndash; Present</span>
+                            <h3 class="timeline__title">Freelance Web Developer</h3>
+                            <h4 class="timeline__company">Self-Employed</h4>
+                            <ul class="timeline__list">
+                                <li>Built responsive e-commerce websites, WooCommerce setups, and PHP/MySQL scripts.</li>
+                                <li>Performed speed optimization and cross-browser debugging.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             PORTFOLIO (project cards)
+             Replace the placeholder text, images and links with real projects.
+        ====================================================== -->
+        <section class="section section--alt" id="portfolio">
+            <div class="container">
+                <header class="section__head">
+                    <span class="section__eyebrow">Portfolio</span>
+                    <h2 class="section__title">Selected Work</h2>
+                </header>
+
+                <div class="projects">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-card__thumb project-card__thumb--one">
+                            <!-- Optional: <img src="images/project-1.jpg" alt="Project name"> -->
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="project-card__body">
+                            <span class="project-card__tag">WooCommerce</span>
+                            <h3 class="project-card__title">Speed-Optimized E-commerce Store</h3>
+                            <p class="project-card__text">Responsive online store with fast load times and a smooth checkout.</p>
+                            <a href="#" class="project-card__link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-card__thumb project-card__thumb--two">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="project-card__body">
+                            <span class="project-card__tag">Custom Frontend</span>
+                            <h3 class="project-card__title">Responsive Business Website</h3>
+                            <p class="project-card__text">Clean HTML5/CSS3 layout, cross-browser tested on all major devices.</p>
+                            <a href="#" class="project-card__link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-card__thumb project-card__thumb--three">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div class="project-card__body">
+                            <span class="project-card__tag">PHP / MySQL</span>
+                            <h3 class="project-card__title">Custom PHP Management Script</h3>
+                            <p class="project-card__text">Scalable PHP and MySQL solution built around the client's workflow.</p>
+                            <a href="#" class="project-card__link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             5. EDUCATION & TRAINING
+        ====================================================== -->
+        <section class="section" id="education">
+            <div class="container">
+                <header class="section__head">
+                    <span class="section__eyebrow">Education &amp; Training</span>
+                    <h2 class="section__title">Academic Background</h2>
+                </header>
+
+                <div class="education">
+
+                    <article class="edu-card">
+                        <div class="edu-card__icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <span class="edu-card__year">2013</span>
+                        <h3 class="edu-card__title">Master of Social Science (MSS)</h3>
+                        <p class="edu-card__place">National University</p>
+                    </article>
+
+                    <article class="edu-card">
+                        <div class="edu-card__icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <span class="edu-card__year">2012(Improvement)</span>
+                        <h3 class="edu-card__title">Bachelor of Arts (B.A.)</h3>
+                        <p class="edu-card__place">National University</p>
+                    </article>
+
+                    <article class="edu-card">
+                        <div class="edu-card__icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <span class="edu-card__year">Advanced Training</span>
+                        <h3 class="edu-card__title">Web Designer, Developer &amp; WordPress Expert</h3>
+                        <p class="edu-card__place">Freedom IT Institution</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             6. CONTACT SECTION
+        ====================================================== -->
+        <section class="section section--alt" id="contact">
+            <div class="container">
+                <header class="section__head">
+                    <span class="section__eyebrow">Contact</span>
+                    <h2 class="section__title">Let's Build Something Great Together</h2>
+                </header>
+
+                <div class="contact">
+
+                    <!-- Contact info -->
+                    <div class="contact__info">
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <strong>Address</strong>
+                                    <span> Bangladesh</span>
+                                </div>
+                            </li>
+                            <li class="contact__item">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <span>
+                                        <a href="#">Available upon request (Via Fiverr)</a> 
+                                        
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="contact__item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <span><a href="#">Available upon request (Via Fiverr)</a></span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- Social links: replace "#" with your real profile URLs -->
+                        <div class="social">
+                            <a href="#" target="_blank" rel="noopener" class="social__link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener" class="social__link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://facebook.com/YOUR_PROFILE" target="_blank" rel="noopener" class="social__link" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact form
+                         Uses FormSubmit.co (free). The first time someone submits,
+                         you will get an email to activate it. Or replace the action
+                         with your own PHP script / Formspree / Getform URL. -->
+                    <form class="form" action="https://formsubmit.co/sultanmahmudasa77@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New message from portfolio website">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="name" class="form__label">Your Name</label>
+                                <input type="text" id="name" name="name" class="form__input" placeholder="John Doe" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="email" class="form__label">Your Email</label>
+                                <input type="email" id="email" name="email" class="form__input" placeholder="you@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="subject" class="form__label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form__input" placeholder="Project inquiry" required>
+                        </div>
+
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form__input" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary btn--block">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__copy">&copy; 2026 Md. Sultan Mahmud. All rights reserved.</p>
+            <a href="#top" class="footer__top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
